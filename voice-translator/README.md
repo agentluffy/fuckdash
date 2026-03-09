@@ -61,25 +61,25 @@ This bot uses **microphone capture** (Option 2) for reliable voice translation:
 
 | Command          | Description                            |
 | ---------------- | -------------------------------------- |
-| `/join`          | Bot joins your voice channel           |
-| `/leave`         | Bot leaves voice channel               |
-| `/lang <code>`   | Set target language (e.g., `/lang es`) |
-| `/source <code>` | Set source language (default: English) |
-| `/langs`         | List all available languages           |
+| `!join`          | Bot joins your voice channel           |
+| `!leave`         | Bot leaves voice channel               |
+| `!lang <code>`   | Set target language (e.g., `!lang es`) |
+| `!source <code>` | Set source language (default: English) |
+| `!langs`         | List all available languages           |
 
 ## Usage
 
 1. Join a voice channel
-2. Run `/join` - bot will join and start listening to your mic
-3. Set target language with `/lang <code>`
+2. Run `!join` - bot will join and start listening to your mic
+3. Set target language with `!lang <code>`
 4. Speak into your microphone - bot will translate and play in VC
-5. Run `/leave` when done
+5. Run `!leave` when done
 
 ## Language Codes
 
 Common codes: `en`, `es`, `fr`, `de`, `it`, `pt`, `ru`, `ja`, `ko`, `zh`, `ar`, `hi`
 
-Full list: `/langs`
+Full list: `!langs`
 
 ## Requirements
 
